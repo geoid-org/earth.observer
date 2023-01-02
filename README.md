@@ -2,6 +2,7 @@
 <p align="center">
     <img src=".github/images/geoid-logo_light.png" width="20%" height="20%" alt="Kyū Logo">
 </p>
+<p align='center' style='border-bottom: none;'>Geoid</p>
 <h1 align='center' style='border-bottom: none;'>Earth Observer</h1>
 <h3 align='center'>Spatial Data Portal</h3>
 </header>
