@@ -30,8 +30,6 @@
 
 ### Earth Observer
 
-**WORK IN PROGRESS**
-
 **Earth Observer** is a directory of spatial data sources that cover our planet’s terrestrial landscapes, oceans and seas, frozen ice caps, atmosphere and clouds, geologic terrains, topography, nautical charts, natural hazards, human impacts, and many other earth and environmental science topics.
 
 website: [earth.observer](https://www.earth.observer)
