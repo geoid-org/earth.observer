@@ -4,6 +4,7 @@
 </p>
 <p align='center' style='border-bottom: none;'><b>Geoid</b></p>
 <h1 align='center' style='border-bottom: none;'>Earth Observer</h1>
+<h3 align='center'>[WORK IN PROGRESS]</h3>
 <h3 align='center'>Spatial Data Directory</h3>
 </header>
 
