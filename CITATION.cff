@@ -4,7 +4,7 @@ version: 0.0.1
 date-released: 2022-11-01
 url: "https://github.com/geoid-org/eart-observer"
 message: >-
-  Earth Observer is a Spatial Data Portal by Geoid.
+  Earth Observer is a Spatial Data Directory maintained by Geoid.
 type: software
 authors:
   - given-names: Lars Bastiaan
