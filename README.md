@@ -16,6 +16,7 @@
 - [About](#about)
 - [Quick Start](#quick-start)
 - [Usage](#usage)
+- [Resources](#resources)
 - [Authors](#authors)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
@@ -38,10 +39,23 @@ website: [www.earth.observer](https://www.earth.observer)
 
 ...
 
+
 ## Usage
 
 ...
 
+
+## Resources
+
+| <div style="width:40%">Provider</div> | <div style="width:40%">Resource</div> | <div style="width:20%">Link</div> |
+| ------------------------------------- | ------------------------------------- | ------------------------------------- |
+| United Nations                        | Spider Data Sources                   | [>>>](https://www.un-spider.org/links-and-resources/data-sources) |
+| OpenTopography                        | Portal                                | [>>>](https://portal.opentopography.org/) |
+| Amazon                                | Earth on AWS                          | [>>>](https://aws.amazon.com/earth/) |
+| Microsoft                             | Planetary Computer                    | [>>>](https://planetarycomputer.microsoft.com/) |
+| Google                                | Earth Engine                          | [>>>](https://developers.google.com/earth-engine/) |
+| Esri                                  | ArcGIS Hub                            | [>>>](https://hub.arcgis.com/) |
+| Microsoft                             | Planetary Computer                    | [>>>](https://planetarycomputer.microsoft.com/) |
 
 
 ## Authors
@@ -52,7 +66,6 @@ website: [www.earth.observer](https://www.earth.observer)
 This self-organizing network bridges our virtual and physical environments and is formed by all the people of our planet and the information and communication technologies that connect them. Geoid functions as a nervous system that mediates the data we produce and use in our daily lives, adds value to interconnectivity and cherishes spontaneous connections between people and the places and things they love.
 
 website: [www.geoid.org](https://www.geoid.org "Geoid website")
-
 
 
 ## Roadmap
