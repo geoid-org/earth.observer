@@ -55,7 +55,6 @@ website: [www.earth.observer](https://www.earth.observer)
 | Microsoft                             | Planetary Computer                    | [>>>](https://planetarycomputer.microsoft.com/) |
 | Google                                | Earth Engine                          | [>>>](https://developers.google.com/earth-engine/) |
 | Esri                                  | ArcGIS Hub                            | [>>>](https://hub.arcgis.com/) |
-| Microsoft                             | Planetary Computer                    | [>>>](https://planetarycomputer.microsoft.com/) |
 
 
 ## Authors
