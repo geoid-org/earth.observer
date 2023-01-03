@@ -47,7 +47,7 @@ website: [www.earth.observer](https://www.earth.observer)
 
 ## Resources
 
-| <div style="width:40%">Provider</div> | <div style="width:40%">Resource</div> | <div style="width:20%">Link</div> |
+| <div style="width:240px">Provider</div> | <div style="width:240px">Resource</div> | <div style="width:120px">Link</div> |
 | ------------------------------------- | ------------------------------------- | ------------------------------------- |
 | United Nations                        | Spider Data Sources                   | [>>>](https://www.un-spider.org/links-and-resources/data-sources) |
 | OpenTopography                        | Portal                                | [>>>](https://portal.opentopography.org/) |
