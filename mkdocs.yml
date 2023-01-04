@@ -41,7 +41,7 @@ hide:
 
 
 
-pages:
+nav:
   - Getting Started:
       - 'Introduction': 'index.md'
   - Resources:
