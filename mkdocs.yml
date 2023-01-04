@@ -1,4 +1,13 @@
 site_name: Earth Observer
+site_url: https://www.earth.observer/
+site_description:
+site_author:
+copyright:
+lang: en
+
+repo_name: 'GitHub'
+repo_url: https://github.com/geoid-org/earth-observer/
+edit_uri_template: 'docs/{path}'
 
 dev_addr: 127.0.0.1:8888
 
@@ -8,13 +17,16 @@ theme:
   palette:
     scheme: geoid
     # primary: light blue
-  logo: assets/logo.png
-  favicon: assets/images/favicon.png
-  # features:
-  #   - navigation.tabs
+  logo: assets/image/logo_light.png
+  favicon: assets/favicon/favicon.png
+  features:
+    - navigation.tabs
 
 extra_css:
-  - stylesheets/extra.css
+  - assets/style/extra.css
+extra_javascript:
+  - assets/script/extra.js
+extra_templates:
 
 extra:
   generator: false
