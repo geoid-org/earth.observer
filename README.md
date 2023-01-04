@@ -50,6 +50,12 @@ website: [www.earth.observer](https://www.earth.observer)
 | <div style="width:240px">Provider</div> | <div style="width:240px">Resource</div> | <div style="width:120px">Link</div> |
 | ------------------------------------- | ------------------------------------- | ------------------------------------- |
 | United Nations                        | Spider Data Sources                   | [>>>](https://www.un-spider.org/links-and-resources/data-sources) |
+| United Nations                        | UNEP Open Data                   | [>>>](https://open.unep.org/) |
+| United Nations                        | Biodiversity Lab                 | [>>>](https://map.unbiodiversitylab.org/) |
+
+
+
+
 | OpenTopography                        | Portal                                | [>>>](https://portal.opentopography.org/) |
 | Amazon                                | Earth on AWS                          | [>>>](https://aws.amazon.com/earth/) |
 | Microsoft                             | Planetary Computer                    | [>>>](https://planetarycomputer.microsoft.com/) |
