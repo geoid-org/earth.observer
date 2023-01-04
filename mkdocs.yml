@@ -1,4 +1,4 @@
-site_name: Starling Egg Docs
+site_name: Earth Observer
 
 dev_addr: 127.0.0.1:8888
 
@@ -6,7 +6,7 @@ theme:
   name: material
   locale: en
   palette:
-    scheme: starling
+    scheme: geoid
     # primary: light blue
   logo: assets/logo.png
   favicon: assets/images/favicon.png
@@ -22,10 +22,18 @@ extra:
   #   provider: google
   #   property: G-XXXXXXXXXX
   social:
+    - icon: fontawesome/solid/globe 
+      link: https://www.geoid.org
     - icon: fontawesome/brands/github 
-      link: https://github.com/starling-cloud
+      link: https://github.com/geoid-org
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/company/geoid-org
+    - icon: fontawesome/brands/instagram 
+      link: https://instagram.com/geoid_org
+    - icon: fontawesome/brands/facebook 
+      link: https://www.facebook.com/geoid.org
 
-copyright: Copyright &copy; 2022 Starling Associates
+copyright: Copyright &copy; 2023 Geoid
 
 hide:
   - footer
