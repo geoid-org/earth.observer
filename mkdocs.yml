@@ -37,3 +37,15 @@ copyright: Copyright &copy; 2023 Geoid
 
 hide:
   - footer
+
+
+
+
+pages:
+  - Getting Started:
+      - 'Introduction': 'index.md'
+  - Resources:
+      - 'Portals': 'resources/portals.md'
+  - Glossary: 'glossary.md'
+  - License: 'license.md'
+  - Privacy Policy: 'privacy.md'
