@@ -56,6 +56,11 @@ nav:
       - 'Introduction': 'index.md'
   - Resources:
       - 'Portals': 'resources/portals.md'
-  - Glossary: 'glossary.md'
-  - License: 'license.md'
-  - Privacy Policy: 'privacy.md'
+      - 'Glossary': 'resources/glossary.md'
+      - 'Links': 'resources/links.md'
+  - About:
+      - 'Authors': 'about/authors.md'
+  - Legal Information:
+      - 'License': 'legal/license.md'
+      - 'Privacy Policy': 'legal/privacy_policy.md'
+      - 'Disclaimer': 'legal/disclaimer.md'
