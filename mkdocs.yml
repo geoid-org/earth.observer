@@ -1,8 +1,7 @@
 site_name: Earth Observer
 site_url: https://www.earth.observer/
-site_description:
-site_author:
-copyright:
+site_description: Spatial Data Directory
+site_author: Geoid
 lang: en
 
 repo_name: 'GitHub'
@@ -16,11 +15,10 @@ theme:
   locale: en
   palette:
     scheme: geoid
-    # primary: light blue
   logo: assets/image/logo_light.png
-  favicon: assets/favicon/favicon.png
-  features:
-    - navigation.tabs
+  favicon: assets/favicon/favicon.ico
+  # features:
+  #   - navigation.tabs
 
 extra_css:
   - assets/style/extra.css
@@ -30,9 +28,9 @@ extra_templates:
 
 extra:
   generator: false
-  # analytics:
-  #   provider: google
-  #   property: G-XXXXXXXXXX
+  analytics:
+    provider: google
+    property: G-1Z88Q4WE1C
   social:
     - icon: fontawesome/solid/globe 
       link: https://www.geoid.org
