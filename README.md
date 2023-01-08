@@ -7,8 +7,31 @@
 <h3 align='center'>[WORK IN PROGRESS]</h3>
 <h3 align='center'>Spatial Data Directory</h3>
 </header>
+<br/>
+<div align="center">
+  <a href="https://github.com/geoid-org/earth-observer/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&template=bug_report.yml">Report a Bug</a>
+  |
+  <a href="https://github.com/geoid-org/earth-observer/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Afeature-request%2CHelp+wanted+%F0%9F%AA%A7&template=feature_request.yml">Request a Feature</a>
+  |
+  <a href="https://github.com/geoid-org/earth-observer/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Aquestion&template=question.yml">Ask a Question</a>
+  |
+  <a href="https://github.com/geoid-org/earth-observer/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Aenhancement&template=suggestion.yml">Make a Sugestion</a>
+  |
+  <a href="https://github.com/geoid-org/earth-observer/discussions">Start a Discussion</a>
+</div>
+<br/>
+<div align="center">
 
+  [![license](https://img.shields.io/github/license/geoid-org/earth-observer?color=green&label=license&style=flat-square)](LICENSE.md)
+  [![website](https://img.shields.io/website?color=blue&down_color=red&down_message=offline&label=website&style=flat-square&up_color=green&up_message=online&url=https%3A%2F%2Fwww.earth.observer)](https://www.earth.observer)
 
+  ![stars](https://img.shields.io/github/stars/geoid-org/earth-observer?color=blue&label=stars&style=flat-square)
+  ![forks](https://img.shields.io/github/forks/geoid-org/earth-observer?color=blue&label=forks&style=flat-square)
+  ![downloads](https://img.shields.io/github/downloads/geoid-org/earth-observer/total?color=blue&label=downloads&style=flat-square)
+  ![sponsors](https://img.shields.io/github/sponsors/starling-cloud?color=blue&label=sponsors&style=flat-square)
+  ![contributors](https://img.shields.io/github/contributors/geoid-org/earth-observer?color=blue&label=contributors&style=flat-square)
+
+</div>
 <br/>
 <details open="open">
 <summary>Table of Contents</summary>
@@ -56,11 +79,6 @@ This self-organizing network bridges our virtual and physical environments and i
 website: [www.geoid.org](https://www.geoid.org "Geoid website")
 
 
-## Roadmap
-
-...
-
-
 ## Contributing
 
 We'd love for you to contribute and to make **Earth Observer** even better than it is today!
@@ -69,9 +87,7 @@ Please refer to the [contribution guidelines](.github/CONTRIBUTING.md) for infor
 
 ## License
 
-
 Except where otherwise noted, **Earth Observer** by Geoid is licensed under the terms of the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons Attribution-ShareAlike 4.0 International License"). To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons Attribution-ShareAlike 4.0 International License") or write to Creative Commons, 171 Second Street, Suite 300, San Francisco, CA 94105, USA.
-
 
 
 ## Disclaimer
