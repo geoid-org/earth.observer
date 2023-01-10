@@ -1,6 +1,6 @@
 ---
 hide:
-  - navigation
+#   - navigation
   - toc
 ---
 
@@ -8,7 +8,7 @@ hide:
 
 <style>
   .md-grid {
-    max-width: initial;
+    /* max-width: initial; */
   }
   .md-typeset h1,
   .md-content__button {
