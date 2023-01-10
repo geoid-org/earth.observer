@@ -21,25 +21,24 @@
 <br/>
 <div align="center">
 
-  [![license](https://img.shields.io/github/license/geoid-org/earth-observer?color=green&label=license&style=flat-square)](LICENSE.md)
-  [![website](https://img.shields.io/website?color=blue&down_color=red&down_message=offline&label=website&style=flat-square&up_color=green&up_message=online&url=https%3A%2F%2Fwww.earth.observer)](https://www.earth.observer)
+  [![license](https://img.shields.io/github/license/geoid-org/earth-observer?color=green&label=license&style=flat)](LICENSE.md)
+  [![website](https://img.shields.io/website?color=blue&down_color=red&down_message=offline&label=website&style=flat&up_color=green&up_message=online&url=https%3A%2F%2Fwww.earth.observer)](https://www.earth.observer)
 
-  ![stars](https://img.shields.io/github/stars/geoid-org/earth-observer?color=blue&label=stars&style=flat-square)
-  ![forks](https://img.shields.io/github/forks/geoid-org/earth-observer?color=blue&label=forks&style=flat-square)
-  ![downloads](https://img.shields.io/github/downloads/geoid-org/earth-observer/total?color=blue&label=downloads&style=flat-square)
-  ![sponsors](https://img.shields.io/github/sponsors/starling-cloud?color=blue&label=sponsors&style=flat-square)
-  ![contributors](https://img.shields.io/github/contributors/geoid-org/earth-observer?color=blue&label=contributors&style=flat-square)
+  ![stars](https://img.shields.io/github/stars/geoid-org/earth-observer?color=blue&label=stars&style=flat)
+  ![forks](https://img.shields.io/github/forks/geoid-org/earth-observer?color=blue&label=forks&style=flat)
+  ![downloads](https://img.shields.io/github/downloads/geoid-org/earth-observer/total?color=blue&label=downloads&style=flat)
+  ![sponsors](https://img.shields.io/github/sponsors/starling-cloud?color=blue&label=sponsors&style=flat)
+  ![contributors](https://img.shields.io/github/contributors/geoid-org/earth-observer?color=blue&label=contributors&style=flat)
 
 </div>
 <br/>
+
 ---
 
 <details open="open">
 <summary>Table of Contents</summary>
 
 - [About](#about)
-- [Quick Start](#quick-start)
-- [Usage](#usage)
 - [Authors](#authors)
 - [Contributing](#contributing)
 - [License](#license)
@@ -56,17 +55,6 @@
 **Earth Observer** is a directory of spatial data sources that cover our planet’s terrestrial landscapes, oceans and seas, frozen ice caps, atmosphere and clouds, geologic terrains, topography, nautical charts, natural hazards, human impacts, and many other earth and environmental science topics.
 
 website: [www.earth.observer](https://www.earth.observer)
-
-
-## Quick Start
-
-...
-
-
-## Usage
-
-...
-
 
 
 ## Authors
