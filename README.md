@@ -4,7 +4,6 @@
 </p>
 <p align='center' style='border-bottom: none;'><b>Geoid</b></p>
 <h1 align='center' style='border-bottom: none;'>Earth Observer</h1>
-<h3 align='center'>[WORK IN PROGRESS]</h3>
 <h3 align='center'>Spatial Data Directory</h3>
 </header>
 <br/>
@@ -33,21 +32,22 @@
 
 </div>
 <br/>
+---
+
 <details open="open">
 <summary>Table of Contents</summary>
 
 - [About](#about)
 - [Quick Start](#quick-start)
 - [Usage](#usage)
-- [Resources](#resources)
 - [Authors](#authors)
-- [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
 - [Disclaimer](#disclaimer)
 
 </details>
 
+---
 
 
 ## About
