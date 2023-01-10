@@ -53,6 +53,7 @@ hide:
 
 nav:
   - Introduction: 'index.md'
+  - Data: 'data.md'
   - Resources:
       - 'Portals': 'resources/portals.md'
       - 'Glossary': 'resources/glossary.md'

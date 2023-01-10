@@ -5,7 +5,7 @@ date-released: 2022-11-01
 url: "https://github.com/geoid-org/eart-observer"
 message: >-
   Earth Observer is a Spatial Data Directory maintained by Geoid.
-type: software
+type: dataset
 authors:
   - given-names: Lars Bastiaan
     family-names: van Vianen
