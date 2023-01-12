@@ -5,4 +5,4 @@ User-agent: *
 Disallow:
 
 
-SITEMAP: http://www.dymaxion.world/sitemap.xml
+SITEMAP: http://www.earth.observer/sitemap.xml
