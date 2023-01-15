@@ -1,0 +1,4 @@
+# Copernicus CORINE Land Cover
+
+
+
