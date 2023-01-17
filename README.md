@@ -1,11 +1,9 @@
-<header>
 <p align="center">
-    <img src=".github/images/geoid-logo_light.png" width="20%" height="20%" alt="Geoid Logo">
+    <img src="https://github.com/geoid-org/.assets/blob/6cb85c8d90c9b34d8b3194911a99c4e66d3528df/logo/geoid_logo.png" width="20%" height="20%" alt="Geoid Logo">
 </p>
 <p align='center' style='border-bottom: none;'><b>Geoid</b></p>
 <h1 align='center' style='border-bottom: none;'>Earth Observer</h1>
 <h3 align='center'>Spatial Data Directory</h3>
-</header>
 <br/>
 <div align="center">
   <a href="https://github.com/geoid-org/earth-observer/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&template=bug_report.yml">Report a Bug</a>
