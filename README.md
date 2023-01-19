@@ -52,6 +52,8 @@
 
 **Earth Observer** is a directory of spatial data sources that cover our planet’s terrestrial landscapes, oceans and seas, frozen ice caps, atmosphere and clouds, geologic terrains, topography, nautical charts, natural hazards, human impacts, and many other earth and environmental science topics.
 
+There are several directories of spatial data sources that cover various aspects of the Earth's terrain, oceans, atmosphere, and more. These sources can be used for a wide range of applications, including environmental science, geographic information systems (GIS), disaster management, and land-use planning. Some examples of data sources include the US Geological Survey (USGS), the National Oceanic and Atmospheric Administration (NOAA), the European Space Agency (ESA), and NASA's Earth Observing System Data and Information System (EOSDIS). These sources provide access to a wide range of data, including satellite imagery, topographic maps, weather forecasts, and geological surveys. Additionally, there are also a number of open data portals, such as the Open Data Portal of the European Union, that provide free access to spatial data from various sources.
+
 website: [www.earth.observer](https://www.earth.observer)
 
 
