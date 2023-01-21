@@ -6,10 +6,6 @@
 <h3 align='center'>Spatial Data Directory</h3>
 <br/>
 <div align="center">
-  <a href="https://github.com/geoid-org/earth-observer/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&template=bug_report.yml">Report a Bug</a>
-  |
-  <a href="https://github.com/geoid-org/earth-observer/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Afeature-request%2CHelp+wanted+%F0%9F%AA%A7&template=feature_request.yml">Request a Feature</a>
-  |
   <a href="https://github.com/geoid-org/earth-observer/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Aquestion&template=question.yml">Ask a Question</a>
   |
   <a href="https://github.com/geoid-org/earth-observer/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Aenhancement&template=suggestion.yml">Make a Sugestion</a>
@@ -21,10 +17,7 @@
 
   [![license](https://img.shields.io/github/license/geoid-org/earth-observer?color=green&label=license&style=flat)](LICENSE.md)
   [![website](https://img.shields.io/website?color=blue&down_color=red&down_message=offline&label=website&style=flat&up_color=green&up_message=online&url=https%3A%2F%2Fwww.earth.observer)](https://www.earth.observer)
-
   ![stars](https://img.shields.io/github/stars/geoid-org/earth-observer?color=blue&label=stars&style=flat)
-  ![forks](https://img.shields.io/github/forks/geoid-org/earth-observer?color=blue&label=forks&style=flat)
-  ![downloads](https://img.shields.io/github/downloads/geoid-org/earth-observer/total?color=blue&label=downloads&style=flat)
   ![sponsors](https://img.shields.io/github/sponsors/starling-cloud?color=blue&label=sponsors&style=flat)
   ![contributors](https://img.shields.io/github/contributors/geoid-org/earth-observer?color=blue&label=contributors&style=flat)
 
@@ -48,7 +41,6 @@
 
 
 ## About
-
 
 **Earth Observer** is a directory of spatial data sources that cover our planet’s terrestrial landscapes, oceans and seas, frozen ice caps, atmosphere and clouds, geologic terrains, topography, nautical charts, natural hazards, human impacts, and many other earth and environmental science topics.
 
