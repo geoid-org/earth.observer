@@ -2,7 +2,7 @@ cff-version: 1.2.0
 title: Earth Observer
 version: 0.0.1
 date-released: 2022-11-01
-url: "https://github.com/geoid-org/eart-observer"
+url: "https://github.com/geoid-org/eart.observer"
 message: >-
   Earth Observer is a Spatial Data Directory maintained by Geoid.
 type: dataset
