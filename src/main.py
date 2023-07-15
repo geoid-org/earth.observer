@@ -66,7 +66,8 @@ AIRTABLE_URL = f"https://api.airtable.com/v0/{AIRTABLE_BASE_ID}"
 
 def slugify(value, allow_unicode=False):
     """
-    Taken from https://github.com/django/django/blob/master/django/utils/text.py
+    Taken from:
+    https://github.com/django/django/blob/master/django/utils/text.py
     Convert to ASCII if 'allow_unicode' is False. Convert spaces or repeated
     dashes to single dashes. Remove characters that aren't alphanumerics,
     underscores, or hyphens. Convert to lowercase. Also strip leading and
@@ -108,7 +109,7 @@ def main():
 
     # Jinja | Load Environment
     loader = ChoiceLoader([
-        FileSystemLoader(searchpath=DIR_TEMPLATES),
+        FileSystemLoader(searchpath = DIR_TEMPLATES),
     ])
     env = Environment(loader = loader)
 
