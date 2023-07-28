@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <img class="logo" alt="Vue logo" src="../assets/logo.png" />
+    <HelloWorld msg="Welcome to Earth Observer" />
   </div>
 </template>
 
@@ -16,3 +16,9 @@ import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
 })
 export default class HomeView extends Vue {}
 </script>
+
+<style scoped>
+.logo {
+  width: 200px;
+}
+</style>
