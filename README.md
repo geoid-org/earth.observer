@@ -39,8 +39,7 @@
 
 ---
 
-
-## About
+## Introduction
 
 **Earth Observer** is a directory of spatial data sources that cover our planet’s terrestrial landscapes, oceans and seas, frozen ice caps, atmosphere and clouds, geologic terrains, topography, nautical charts, natural hazards, human impacts, and many other earth and environmental science topics.
 
@@ -48,8 +47,9 @@ There are several directories of spatial data sources that cover various aspects
 
 website: [www.earth.observer](https://www.earth.observer)
 
+## Development
 
-## Authors
+### Authors
 
 **Earth Observer** is an open-source project by **[Geoid](https://www.geoid.org "Geoid website")**.
 
@@ -58,18 +58,24 @@ This self-organizing network bridges our virtual and physical environments and i
 
 website: [www.geoid.org](https://www.geoid.org "Geoid website")
 
-
-## Contributing
+### Contributing
 
 We'd love for you to contribute and to make **Earth Observer** even better than it is today!
 Please refer to the [contribution guidelines](.github/CONTRIBUTING.md) for information.
 
+#### Adding New Entries
 
-## License
+The website is auto-generated from entries from [this Airtable](https://airtable.com/).
+
+To add a new entry just fill out [this form ](https://airtable.com/).
+Once the entry is approved it will be automatically published to the website
+
+## Legal Information
+
+### License
 
 Except where otherwise noted, **Earth Observer** by Geoid is licensed under the terms of the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons Attribution-ShareAlike 4.0 International License"). To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons Attribution-ShareAlike 4.0 International License") or write to Creative Commons, 171 Second Street, Suite 300, San Francisco, CA 94105, USA.
 
-
-## Disclaimer
+### Disclaimer
 
 **THIS SOFTWARE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
