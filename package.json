@@ -30,6 +30,6 @@
     "eslint-plugin-vue": "^8.0.3",
     "prettier": "^2.4.1",
     "stylescape": "^0.0.1",
-    "typescript": "~4.5.5"
+    "typescript": "~5.1.6"
   }
 }
