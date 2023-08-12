@@ -7,12 +7,12 @@ const $axios: AxiosInstance = axios.create({
 
 // Response Interceptor to handle and log errors
 $axios.interceptors.response.use(
-  (response: AxiosResponse) => {
-    return response;
-  },
-  (error: AxiosError) => {
-    return Promise.reject(error);
-  }
+    (response: AxiosResponse) => {
+      return response;
+    },
+    (error: AxiosError) => {
+      return Promise.reject(error);
+    }
 );
 
 
