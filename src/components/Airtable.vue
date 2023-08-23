@@ -27,6 +27,7 @@ import axios from "axios";
 export default {
     name: "VueAirtable",
     props: ["base", "columns", "filter", "sort"],
+
     data: function () {
         return {
             apiUrl: "https://api.airtable.com/v0/",
@@ -34,6 +35,7 @@ export default {
             records: []
         };
     },
+
     mounted: function () {
         if (!this.base || !this.columns) {
             return console.error(
@@ -42,11 +44,13 @@ export default {
         }
         this.getData();
     },
+
     watch: {
-        table: function (newTable, oldTable) {
+        table: function (_newTable, _oldTable) {
             this.getData();
         }
     },
+
     methods: {
         getData: function () {
             axios({
