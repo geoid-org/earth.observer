@@ -1,13 +1,41 @@
 {
-  "name": "earth.observer",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
+    "name": "earth.observer",
+    "description": "Earth Observer.",
+    "version": "0.1.0",
+    "config": {
+        "version_short": "0.1"
+    },
+    "keywords": [
+        "earth-observer",
+        "earth",
+        "observer"
+    ],
+    "homepage": "https://www.earth.observer/",
+    "author": "Lars van Vianen",
+    "contributors": [
+        "Geoid"
+    ],
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/geoid-org/earth.observer.git"
+    },
+    "bugs": {
+        "url": "https://github.com/geoid-org/earth.observer/issues"
+    },
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/scape-foundation"
+        }
+    ],
+    "private": true,
+    "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
         "lint": "vue-cli-service lint"
-  },
-  "dependencies": {
+    },
+    "dependencies": {
         "airtable": "^0.12.2",
         "axios": "^1.4.0",
         "core-js": "^3.32.1",
