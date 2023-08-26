@@ -1,6 +1,6 @@
 {
     "name": "earth.observer",
-    "description": "Earth Observer.",
+    "description": "Earth Observer Spatial Data Directory.",
     "version": "0.1.0",
     "config": {
         "version_short": "0.1"
@@ -57,7 +57,7 @@
         "eslint-plugin-prettier": "^5.0.0",
         "eslint-plugin-vue": "^9.17.0",
         "prettier": "3.0.2",
-        "stylescape": "^0.0.1",
+        "stylescape": "^0.0.2",
         "typescript": "~5.2.2"
     }
 }
