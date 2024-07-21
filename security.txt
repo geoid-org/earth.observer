@@ -1,0 +1,8 @@
+# Canonical
+Canonical: https://www.earth.observer/security.txt
+
+# Contact
+Contact: mailto:info@geoid.org
+
+# Preferred-Languages
+Preferred-Languages: en

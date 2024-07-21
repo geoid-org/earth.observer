@@ -1,0 +1,9462 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Spatial Data Directory">
+      
+      
+        <meta name="author" content="Geoid">
+      
+      
+        <link rel="canonical" href="https://www.earth.observer/datasets/irildeo-climate-data-library/">
+      
+      
+        <link rel="prev" href="../ipums-international/">
+      
+      
+        <link rel="next" href="../iucn-red-list-of-threatened-species/">
+      
+      
+      <link rel="icon" href="../../assets/favicon/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.29">
+    
+    
+      
+        <title>IRI/LDEO Climate Data Library - Earth Observer</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.76a95c52.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/_mkdocstrings.css">
+    
+      <link rel="stylesheet" href="../../assets/style/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-1Z88Q4WE1C"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-1Z88Q4WE1C",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-1Z88Q4WE1C",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="geoid" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#irildeo-climate-data-library" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Earth Observer" class="md-header__button md-logo" aria-label="Earth Observer" data-md-component="logo">
+      
+  <img src="../../assets/image/logo_light.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Earth Observer
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              IRI/LDEO Climate Data Library
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/geoid-org/earth.observer/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Earth Observer" class="md-nav__button md-logo" aria-label="Earth Observer" data-md-component="logo">
+      
+  <img src="../../assets/image/logo_light.png" alt="logo">
+
+    </a>
+    Earth Observer
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/geoid-org/earth.observer/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../.." class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Introduction
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick_start.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quick Start
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Datasets
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Datasets
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../adm-1-data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ADM-1 data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../admin-0-boundary-lines/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Admin 0 – Boundary Lines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../admin-0-breakaway-disputed-areas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Admin 0 – Breakaway, Disputed Areas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../admin-0-countries-point-of-views/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Admin 0 – Countries point-of-views
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../admin-0-countries/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Admin 0 – Countries
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../admin-0-details/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Admin 0 – Details
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../admin-1-states-provinces/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Admin 1 – States, Provinces
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../admin-2-counties/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Admin 2 – Counties
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../advanced-spaceborne-thermal-emission-and-reflection-radiometer-gdem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Advanced Spaceborne Thermal Emission and Reflection Radiometer GDEM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../airports/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Airports
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../alos-global-digital-surface-model/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ALOS Global Digital Surface Model
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../amphibian-species-distribution-grids/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Amphibian Species Distribution Grids
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../antarctic-ice-shelves/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Antarctic Ice Shelves
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../anthropogenic-biomes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anthropogenic Biomes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aquamaps/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aquamaps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aqueduct-global-flood-risk-maps/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aqueduct Global Flood Risk Maps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aqueduct-global-maps-20/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aqueduct Global Maps 2.0
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aqueduct-global-maps-21-data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aqueduct Global Maps 2.1 Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../arcticdem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ArcticDEM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../areas-of-global-significance-for-conservation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Areas of global significance for conservation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../areas-of-global-significance-for-restoration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Areas of Global Significance for Restoration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../armed-conflict-location-and-event-dataset/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Armed Conflict Location and Event Dataset
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aster-global-digital-elevation-model/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ASTER Global Digital Elevation Model
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aster-global-emissivity-dataset-100-meter-hdf5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ASTER Global Emissivity Dataset 100 meter HDF5
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aster-global-water-bodies-database/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ASTER Global Water Bodies Database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../atlas-of-the-biosphere/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Atlas of the Biosphere
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aw3d-enhanced/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AW3D Enhanced
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aw3d-standard/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AW3D Standard
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bathymetry/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bathymetry
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../biofresh/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    BioFRESH
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../biomass-carbon-density/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Biomass carbon density
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bioregions-2020-framework/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bioregions 2020 Framework
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bleaching-observations-1963-2010/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bleaching observations (1963-2010)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../blue-marble-next-generation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Blue Marble Next Generation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../business-activity-trends/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Business Activity Trends
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../capitaine-european-train-stations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Capitaine European Train Stations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../carbon-dioxide-information-analysis-center/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Carbon Dioxide Information Analysis Center
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../catchment-characterisation-and-modelling/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Catchment Characterisation and Modelling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chelsa-climatologies-at-high-resolution-for-the-earths-land-surface-areas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CHELSA Climatologies at high resolution for the earth's land surface areas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cldr-project/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CLDR Project
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cleantopo2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CleanTOPO2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../climate-analysis-indicators-tool/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Climate Analysis Indicators Tool
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../climatological-database-for-the-worlds-oceans/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Climatological Database for the World's Oceans
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../coastal-water-quality/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Coastal Water Quality
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../coastline/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Coastline
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../colocation-maps/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Colocation Maps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commuting-zones/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Commuting Zones
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../copernicus-corine-land-cover/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Copernicus CORINE Land Cover
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../copernicus-eea-10-digital-elevation-model/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Copernicus EEA-10 Digital Elevation Model
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../copernicus-glo-30-digital-elevation-model/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Copernicus GLO-30 Digital Elevation Model
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../copernicus-glo-90-digital-elevation-model/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Copernicus GLO-90 Digital Elevation Model
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../copernicus-global-land-cover-layers-cgls-lc100-collection-3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Copernicus Global Land Cover Layers: CGLS-LC100 Collection 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../corine-land-cover-map/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Corine Land Cover Map
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crop-calendar-dataset/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Crop Calendar Dataset
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crop-calendar-gis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Crop Calendar GIS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cross-blended-hypsometric-tints/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cross-blended Hypsometric Tints
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cru-climate-datasets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CRU Climate Datasets
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cshapes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cshapes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../csp-ghm-global-human-modification/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CSP gHM: Global Human Modification
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cultural-building-blocks-10m/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cultural Building Blocks – 10m
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../datasets-from-the-united-nations-environment-programme/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Datasets from the United Nations Environment Programme
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../digital-chart-of-the-world/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Digital Chart of the World
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../displacement-maps/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Displacement Maps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../diva-gis-country-data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DIVA-GIS Country Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../downscaled-gcm-portal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Downscaled GCM Portal
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dynamic-world-v1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dynamic World V1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../earth-gravitational-model-1984/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Earth Gravitational Model 1984
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../earth-gravitational-model-2008/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Earth Gravitational Model 2008
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../earth-gravitational-model-2020/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Earth Gravitational Model 2020
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../earth-gravitational-model-96/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Earth Gravitational Model 96
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../earthenv-freshwater-ecosystems-data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EarthEnv Freshwater Ecosystems Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../earthenv-freshwater-ecosystems-environmental-information/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EarthEnv Freshwater Ecosystems Environmental Information
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../earthenv-global-cloud-cover-climatology/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EarthEnv Global Cloud Cover Climatology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../earthenv-global-consensus-land-cover/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EarthEnv Global Consensus Land Cover
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../earthenv-global-consensus-landcover/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EarthEnv Global Consensus Landcover
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../earthenv-global-digital-elevation-model/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EarthEnv Global Digital Elevation Model
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../earthstat/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EarthStat
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ecoregions-2017/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ecoregions 2017
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../electrical-distribution-grid-maps/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Electrical Distribution Grid Maps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ersmetop-soil-moisture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ERS/MetOp Soil Moisture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../esa-worldcover-10m-v100/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ESA WorldCover 10m v100
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../espon-grid-data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ESPON Grid Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../espon-urban-morphological-data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ESPON Urban Morphological Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../etopo-2022/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ETOPO 2022
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../etopo1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ETOPO1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../etopo2v2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ETOPO2v2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../etopo5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ETOPO5
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../europe-in-the-world/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Europe in the World
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../european-climate-assessment-and-dataset/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    European Climate Assessment and Dataset
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../european-digital-elevation-model/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    European Digital Elevation Model
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../european-urban-morphological-zones/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    European Urban Morphological Zones
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../forest-and-buildings-removed-copernicus-dem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Forest and Buildings removed Copernicus DEM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../forest-gis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Forest GIS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../free-world-cities-database/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Free World Cities Database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../freshwater-ecoregions-of-the-world/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Freshwater Ecoregions of the World
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../g-econ/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    G-Econ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gadm-database-of-global-administrative-areas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GADM database of Global Administrative Areas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gar15/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GAR15
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gebco-2021-derived-contour-lines/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GEBCO 2021 derived contour lines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gebco-2021-derived-contour-polys/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GEBCO 2021 derived contour polys
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gebco-2021-derived-raster-classification/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GEBCO 2021 derived raster classification
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../general-bathymetric-chart-of-the-oceans-2021/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    General Bathymetric Chart of the Oceans 2021
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../general-bathymetric-chart-of-the-oceans-2022/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    General Bathymetric Chart of the Oceans 2022
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../geographic-lines/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Geographic lines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../geohive/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GeoHive
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../geoip2-country-database/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GeoIP2 Country Database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../geoip2-downloadable-databases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GeoIP2 Downloadable Databases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../geojsonxyz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    geojson.xyz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../geolite-legacy-downloadable-databases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GeoLite Legacy Downloadable Databases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../geolite2-asn-autonomous-system-number/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GeoLite2 ASN (Autonomous System Number)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../geolite2-city/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GeoLite2 City
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../geolite2-country/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GeoLite2 Country
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../geolite2-free-downloadable-databases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GeoLite2 Free Downloadable Databases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../geonames-country-information/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Geonames Country Information
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../geonames/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GeoNames
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../geonetwork/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GeoNetwork
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../geospatial-conservation-atlas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Geospatial Conservation Atlas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gfsad1000-cropland-extent-1km-multi-study-crop-mask-global-food-support-analysis-dat/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GFSAD1000: Cropland Extent 1km Multi-Study Crop Mask, Global Food-Support Analysis Dat
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gistportal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GISTPortal
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glaciated-areas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glaciated Areas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glc-share/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GLC-SHARE
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glims-2021-global-land-ice-measurements-from-space/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GLIMS 2021: Global Land Ice Measurements From Space
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../globaerosol/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GlobAerosol
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-200-ecoregions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global 200 Ecoregions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-200-freshwater/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global 200 Freshwater
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-200-marine/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global 200 Marine
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-200-terrestrial/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global 200 Terrestrial
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-aerosol-climatology-project/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Aerosol Climatology Project
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-agricultural-lands/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Agricultural Lands
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-agriculture-lands/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Agriculture Lands
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-carbon-storage-in-soils/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Carbon Storage in Soils
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-climate-monitor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Climate Monitor
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-data-lab/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Data Lab
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-food-security-support-analysis-data-at-30-m-gfsad/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Food Security-Support Analysis Data at 30 m (GFSAD)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-forest-change-2000-2014/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Forest Change 2000-2014
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-habitat-heterogeneity/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Habitat Heterogeneity
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-high-resolution-geomorphometric-layers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global High-Resolution Geomorphometric Layers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-high-resolution-soil-water-balance/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global High Resolution Soil Water Balance
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-hotspots/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Hotspots
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-human-settlement-layer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Human Settlement Layer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-irrigated-area-and-rainfed-crops-areas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Irrigated Area and Rainfed Crops Areas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-irrigated-area-map/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Irrigated Area Map
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-lakes-and-wetlands-database/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Lakes and Wetlands Database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-land-cover-by-national-mapping-organisations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Land Cover by National Mapping Organisations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-land-use-dataset/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Land Use Dataset
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-map-of-local-climate-zones/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global map of Local Climate Zones
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-map-of-threat-of-blast-or-poison-fishing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Map of Threat of Blast or Poison Fishing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-map/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Map
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-multi-resolution-terrain-elevation-data-2010/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Multi-Resolution Terrain Elevation Data 2010
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-multi-resolution-topography-data-synthesis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Multi-Resolution Topography Data Synthesis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-palsar-2palsar-forestnon-forest-map/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global PALSAR-2/PALSAR Forest/Non-Forest Map
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-potential-evapotranspiration-and-aridity-index/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Potential Evapotranspiration and Aridity Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-power-plant-database/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Power Plant Database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-reservoir-and-dam-database/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Reservoir and Dam Database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-reservoir-and-dam/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Reservoir and Dam
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-river-classification/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global River Classification
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-river-widths-from-landsat/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global River Widths from Landsat
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-roads-open-access-data-set/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Roads Open Access Data Set
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-rural-urban-mapping-project/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Rural-Urban Mapping Project
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-seismic-hazard-map/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Seismic Hazard Map
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-solar-atlas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Solar Atlas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-srtm-topographic-diversity/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global SRTM Topographic Diversity
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-terrorism-database/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Terrorism Database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-topography/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Topography
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-urban-extent/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Urban Extent
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-urban-footprint-2011/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Urban Footprint 2011
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-urban-footprint/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Urban Footprint
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-volcanoes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Volcanoes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-wind-atlas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Wind Atlas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../globcover-global-land-cover-map/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GlobCover: Global Land Cover Map
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../globcover/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GLOBCOVER
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../globe/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GLOBE
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../google-maps-gallery/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Google Maps Gallery
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grassland-gis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Grassland GIS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../graticules/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Graticules
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gray-earth/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gray Earth
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gridded-climatic-data-for-north-america-south-america-and-europe/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gridded climatic data for North America, South America and Europe
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gridded-population-of-the-world/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gridded Population of the World
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grump-settlement-points/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GRUMP Settlement Points
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gshhg/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GSHHG
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gshhs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GSHHS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gtopo30/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GTOPO30
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../harmonized-world-soil-database/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Harmonized World Soil Database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../high-resolution-population-density-maps/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    High Resolution Population Density Maps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../high-resolution-settlement-layer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    High Resolution Settlement Layer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../historic-croplands-dataset-1700-1992/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Historic Croplands Dataset, 1700-1992
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../historical-tsunami-database/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Historical Tsunami Database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../history-database-of-the-global-environment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    History Database of the Global Environment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../human-impact-on-forests/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Human impact on forests
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../human-impacts-to-marine-ecosystems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Human Impacts to Marine Ecosystems
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../human-influence-and-footprint/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Human Influence and Footprint
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../human-pressures/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Human pressures
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../humanitarian-response-common-and-fundamental-operational-datasets-registry/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Humanitarian Response Common and Fundamental Operational Datasets Registry
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hybrid-coordinate-ocean-model-sea-surface-elevation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hybrid Coordinate Ocean Model, Sea Surface Elevation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hydroatlas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HydroATLAS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hydrobasins/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HydroBASINS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hydrofalls/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HydroFALLS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hydrolakes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HydroLAKES
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hydrorivers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HydroRIVERS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hydrosheds-core-layers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HydroSHEDS Core layers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hydrosheds/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HydroSHEDS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hydrowaste/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HydroWASTE
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ibtracs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IBTrACS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../inclusive-internet-index/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inclusive Internet Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../infrastructure-route-study/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Infrastructure Route Study
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../international-peace-information-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    International Peace Information Service
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../international-satellite-cloud-climatology-project/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    International Satellite Cloud Climatology Project
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ipums-international/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IPUMS International
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    IRI/LDEO Climate Data Library
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iucn-red-list-of-threatened-species/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IUCN Red List of Threatened Species
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jrc-travel-time-to-major-cities/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    JRC Travel Time to Major Cities
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jrc-water-portal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    JRC Water Portal
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../koordinates/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Koordinates
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lakes-reservoirs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lakes + Reservoirs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../land-cover-map/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Land Cover Map
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../land/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Land
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../landsat-1-5-mss/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Landsat 1-5 MSS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../landsat-4-tm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Landsat 4 TM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../landsat-5-tm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Landsat 5 TM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../landsat-7-etm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Landsat 7 ETM+
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../landsat-8-olitirs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Landsat 8 OLI/TIRS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../landsat-9-oli-2tirs-2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Landsat 9 OLI-2/TIRS-2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../large-urban-areas-1950-2050/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Large Urban Areas 1950-2050
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lifemapper/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lifemapper
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lightning-and-atmospheric-electricity-dataset/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lightning and Atmospheric Electricity Dataset
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../major-watersheds-of-the-world-deliniation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Major Watersheds of the World Deliniation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../manual-shaded-relief-of-contiguous-us/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Manual Shaded Relief of Contiguous US
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mapcruzin/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MapCruzin
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../marine-ecoregions-of-the-world/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Marine Ecoregions of the World
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../marine-protected-areas-in-coral-reef-regions-of-the-world/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Marine Protected Areas in Coral Reef Regions of the World
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maritime-boundaries/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Maritime Boundaries
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../merit-hydro-global-hydrography-datasets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MERIT Hydro: Global Hydrography Datasets
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../merit-hydro-supplementary-visualization-layers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MERIT Hydro: Supplementary Visualization Layers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../microsoft-building-footprints/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Microsoft Building Footprints
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mineral-resources-data-system/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mineral Resources Data System
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../minor-islands/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Minor Islands
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modis-fire-detection-data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MODIS Fire Detection Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modis-global-land-cover/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MODIS Global Land Cover
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modisterraaqua-land-cover-type-yearly-l3-global-500-m-sin-grid/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500 m SIN Grid
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../movement-maps/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Movement Maps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../movement-range-maps/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Movement Range Maps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../multi-error-removed-improved-terrain-dem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Multi-Error-Removed Improved-Terrain DEM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../multisensor-analyzed-sea-ice-extent/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Multisensor Analyzed Sea Ice Extent
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nasa-shuttle-radar-topography-mission-global-1-arc-second-v003/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NASA Shuttle Radar Topography Mission Global 1 arc second V003
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nasadem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NASADEM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../natural-disaster-hazards/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Natural Disaster Hazards
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../natural-disaster-hotspots/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Natural Disaster Hotspots
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../natural-earth-1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Natural Earth 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../natural-earth-2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Natural Earth 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../natural-earth-raster/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Natural Earth - Raster
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../natural-earth-vector/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Natural Earth - Vector
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../natural-earth/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Natural Earth
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ncar-gis-climate-change-scenarios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NCAR GIS Climate Change Scenarios
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ned-2-1-13rd-19th-arc-second-dem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NED 2, 1, 1/3rd, 1/9th Arc Second DEM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../net-primary-productivity/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Net Primary Productivity
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../network-coverage-maps/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Network Coverage Maps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ngis-country-files/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NGIS Country Files
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../noaa-historical-hurricane-tracks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NOAA Historical Hurricane Tracks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../north-sea-oil-offshore-maps-and-gis-dutch-sector/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    North Sea Oil Offshore Maps and GIS - Dutch sector
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../north-sea-oil-offshore-maps-and-gis-english-sector/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    North Sea Oil Offshore Maps and GIS - English sector
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../north-sea-oil-offshore-maps-and-gis-netherland-sector/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    North Sea Oil Offshore Maps and GIS - Netherland sector
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nsidc-frozen-ground-maps/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NSIDC Frozen Ground maps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ocean-bottom/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ocean Bottom
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ocean/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ocean
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../onegeology-portal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OneGeology Portal
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../open-flights/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Open Flights
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../openaerialmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OpenAerialMap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../openlandmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OpenLandMap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../openstreetmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OpenStreetMap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../operational-navigation-chart-series/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Operational Navigation Chart Series
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../orrbodies-geology-maps/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Orrbodies Geology maps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../osm-metro-extracts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OSM Metro Extracts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../osm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OSM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../oxford-map-malaria-atlas-project-fractional-international-geosphere-biosphere-programme-landcover/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Oxford MAP: Malaria Atlas Project Fractional International Geosphere-Biosphere Programme Landcover
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../palsar-forestnon-forest-map/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PALSAR Forest/Non-Forest map
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../parks-and-protected-lands/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Parks and Protected Lands
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../peace-research-institute-oslo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Peace Research Institute Oslo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../physical-building-blocks-10m/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Physical Building Blocks – 10m
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../physical-labels/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Physical Labels
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pilot-analysis-of-global-ecosystems-forest-ecosystems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pilot Analysis of Global Ecosystems: Forest Ecosystems
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../playas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Playas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../poi-factory/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    POI Factory
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../populated-places/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Populated Places
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../population-maps/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Population Maps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../portland-lidar-dem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Portland lidar DEM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ports/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ports
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../potential-clean-water-provision/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Potential Clean Water Provision
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../potential-natural-vegetation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Potential Natural Vegetation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../protected-areas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protected areas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../protected-planet/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protected Planet
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../railroads/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Railroads
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../randolph-glacier-inventory/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Randolph Glacier Inventory
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rarity-weighted-richness/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rarity-weighted richness
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../realized-clean-water-provision/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Realized clean water provision
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reefbase-gis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ReefBase GIS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reefs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reefs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../relative-wealth-index/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Relative Wealth Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rivers-lake-centerlines/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rivers + lake centerlines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roads/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Roads
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../salb/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SALB
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../satellite-application-facility-on-climate-monitoring/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Satellite Application Facility on Climate Monitoring
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../shaded-relief/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Shaded Relief
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../shipping-activity/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Shipping Activity
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../shuttle-radar-topography-mission/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Shuttle Radar Topography Mission
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../simplegeos-places/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SimpleGeo's Places
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../smart-infrastructure-planner-beta/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Smart Infrastructure Planner (beta)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../social-capital-atlas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Social Capital Atlas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../social-connectness-index/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Social Connectness Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../soilgrids/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SoilGrids
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../species-richness/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Species richness
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../srtm-90m-digital-elevation-database/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SRTM 90m Digital Elevation Database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../srtm-dem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SRTM DEM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../srtm-resampled-srtm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SRTM - Resampled SRTM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../srtm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SRTM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../srtm15-global-bathymetry-and-topography-at-15-arcseconds/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SRTM15+: GLOBAL BATHYMETRY AND TOPOGRAPHY AT 15 ARCSECONDS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../srtm15/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SRTM15+
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../srtm30_plus-srtm30-coastal-ridge-multibeam-estimated-topography/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SRTM30_PLUS: SRTM30, COASTAL &amp; RIDGE MULTIBEAM, ESTIMATED TOPOGRAPHY
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../standard-time-zones-of-the-world/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Standard Time Zones of the World
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tandem-x/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TanDEM-X
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../terrainmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Terrainmap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../terrestrial-ecoregions-of-the-world/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Terrestrial Ecoregions of the World
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../terrestrial-habitat-types/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Terrestrial habitat types
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-biodiversity-hotspots/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Biodiversity Hotspots
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../threatened-species-richness/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Threatened species richness
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tiger-conservation-landscape-data-and-report/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tiger Conservation Landscape data and report
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../timezone-boundary-builder/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Timezone Boundary Builder
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../timezones/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Timezones
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../total-vulnerable-carbon-density/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Total vulnerable carbon density
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../travel-patterns/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Travel Patterns
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tropical-coral-reefs-of-the-world-500-m-resolution-grid/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tropical Coral Reefs of the World (500-m resolution grid)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tz-database/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    tz database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tz-timezones/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TZ Timezones
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../umd-glc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UMD GLC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../undersea-telecommunications-cables/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Undersea Telecommunications Cables
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../unep-geodata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UNEP GEOdata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../unep-wcmc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UNEP WCMC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../uppsala-conflict-data-programme-georeferenced-event-database/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Uppsala Conflict Data Programme - Georeferenced Event Database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../urban-areas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Urban Areas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../usgs-earthquakes-database/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    USGS Earthquakes Database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../usgs-land-cover-institute/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    USGS Land Cover Institute
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vegetation-map-at-last-glacial-maximum/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vegetation Map at Last Glacial Maximum
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../viewfinderpanoramas-digital-elevation-model-dem-repository/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Viewfinderpanoramas Digital Elevation Model (DEM) repository
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vliz-maritime-boundaries/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    VLIZ Maritime Boundaries
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vmap00/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    VMAP00
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vmap01/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    VMAP01
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vmap02/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    VMAP02
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../volcanogenic-massive-sulphide-deposits/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Volcanogenic Massive Sulphide deposits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vulnerable-soil-organic-carbon-density/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vulnerable soil organic carbon density
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../water-isotopes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Water Isotopes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../world-atlas-topojson/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    World Atlas TopoJSON
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../world-bank-geodata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    World Bank Geodata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../world-borders/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    World Borders
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../world-cities-database-free-edition/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    World Cities Database Free Edition
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../world-grassland-types/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    World Grassland Types
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../world-magnetic-model-2020/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    World Magnetic Model 2020
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../world-ocean-database/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    World Ocean Database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../world-ozone-and-ultraviolet-radiation-data-center/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    World Ozone and Ultraviolet Radiation Data Center
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../world-port-index/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    World Port Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../world-settlement-footprint-2015/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    World Settlement Footprint 2015
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../world-spatial-database-of-protected-areas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    World Spatial Database of Protected Areas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../world-time-zones-110-million-2012/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    World Time Zones, 1:10 million (2012)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../world-time-zones-combined/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    World Time Zones (Combined)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../world-time-zones/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    World Time Zones
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../world-timezones/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    World Timezones
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../worldclim/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WorldClim
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../worldpop/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WorldPop
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wosis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WoSIS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wwf-world-ecoregions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WWF World Ecoregions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Resources
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Resources
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/portals/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Portals
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/links/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Links
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            About
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/authors/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Authors
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Development
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            Development
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../development/roadmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Roadmap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../development/contributing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contributing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../development/code_of_conduct/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Code of Conduct
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Legal Information
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            Legal Information
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../legal/license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../legal/privacy_policy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Privacy Policy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../legal/disclaimer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Disclaimer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="irildeo-climate-data-library">IRI/LDEO Climate Data Library</h1>
+<p>Collection of more than 300 datasets from various climate models and datasets. Operated by The Earth Institute and Lamont–Doherty Earth Observatory.</p>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../ipums-international/" class="md-footer__link md-footer__link--prev" aria-label="Previous: IPUMS International">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                IPUMS International
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../iucn-red-list-of-threatened-species/" class="md-footer__link md-footer__link--next" aria-label="Next: IUCN Red List of Threatened Species">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                IUCN Red List of Threatened Species
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2023 <a href="https://www.geoid.org">Geoid</a>. All Rights Reserved.
+
+    </div>
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://www.geoid.org" target="_blank" rel="noopener" title="Geoid Website" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64h185.4c2.2 20.4 3.3 41.8 3.3 64zm28.8-64h123.1c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6 78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7 10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5 11.6 26 20.9 58.2 27 94.7zm-209 0H18.6c30-74.1 93.6-130.9 172-151.6-25.5 34.2-45.3 87.7-55.3 151.6zM8.1 192h123.1c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zm186.6 254.6c-11.6-26-20.9-58.2-27-94.6h176.6c-6.1 36.4-15.5 68.6-27 94.6-10.5 23.6-22.2 40.7-33.5 51.5-11.2 10.7-20.5 13.9-27.8 13.9s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6-78.4-20.7-142-77.5-172-151.6h116.7zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6 25.5-34.2 45.2-87.7 55.3-151.6h116.6z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://github.com/geoid-org" target="_blank" rel="noopener" title="Geoid GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.linkedin.com/company/geoid-org" target="_blank" rel="noopener" title="Geoid LinkedIn" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://instagram.com/geoid_org" target="_blank" rel="noopener" title="Geoid Instagram" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.facebook.com/geoid.org" target="_blank" rel="noopener" title="Geoid Facebook" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 120 82.7 220.8 194.2 248.5V334.2h-52.8V256h52.8v-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287v175.9C413.8 494.8 512 386.9 512 256z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://pypi.org/project/dymaxion/" target="_blank" rel="noopener" title="Dymaxion PyPi" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+        <script src="../../assets/script/extra.js"></script>
+      
+        <script src="../../assets/script/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
