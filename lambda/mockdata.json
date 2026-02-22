@@ -21,15 +21,8 @@
                     "funding": "Seed",
                     "image": "logos/3drepo.png",
                     "website": "https://3drepo.com",
-                    "tags": [
-                        "web app",
-                        "issue tracking",
-                        "change management"
-                    ],
-                    "industries": [
-                        "architecture",
-                        "construction"
-                    ],
+                    "tags": ["web app", "issue tracking", "change management"],
+                    "industries": ["architecture", "construction"],
                     "location": "London, UK",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -43,15 +36,8 @@
                 "funding": "Seed",
                 "image": "logos/3drepo.png",
                 "website": "https://3drepo.com",
-                "tags": [
-                    "web app",
-                    "issue tracking",
-                    "change management"
-                ],
-                "industries": [
-                    "architecture",
-                    "construction"
-                ],
+                "tags": ["web app", "issue tracking", "change management"],
+                "industries": ["architecture", "construction"],
                 "location": "London, UK",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -88,10 +74,7 @@
                         "web app",
                         "issue tracking"
                     ],
-                    "industries": [
-                        "engineering",
-                        "architecture"
-                    ],
+                    "industries": ["engineering", "architecture"],
                     "image_embed": [
                         {
                             "id": "attk9rpMNxcFdRNZe",
@@ -140,10 +123,7 @@
                     "web app",
                     "issue tracking"
                 ],
-                "industries": [
-                    "engineering",
-                    "architecture"
-                ],
+                "industries": ["engineering", "architecture"],
                 "image_embed": [
                     {
                         "id": "attk9rpMNxcFdRNZe",
@@ -195,14 +175,8 @@
                     "funding": "Seed $2.1M",
                     "image": "https://dl.airtable.com/.attachments/17236d0f3903c1b4eeb55c92eaebcbe0/f3b924d6/alice.png",
                     "website": "https://alicetechnologies.com/",
-                    "tags": [
-                        "web app",
-                        "claims AI"
-                    ],
-                    "industries": [
-                        "construction",
-                        "engineering"
-                    ],
+                    "tags": ["web app", "claims AI"],
+                    "industries": ["construction", "engineering"],
                     "image_embed": [
                         {
                             "id": "attq8hhVUY6dnsJSu",
@@ -242,14 +216,8 @@
                 "funding": "Seed $2.1M",
                 "image": "https://dl.airtable.com/.attachments/17236d0f3903c1b4eeb55c92eaebcbe0/f3b924d6/alice.png",
                 "website": "https://alicetechnologies.com/",
-                "tags": [
-                    "web app",
-                    "claims AI"
-                ],
-                "industries": [
-                    "construction",
-                    "engineering"
-                ],
+                "tags": ["web app", "claims AI"],
+                "industries": ["construction", "engineering"],
                 "image_embed": [
                     {
                         "id": "attq8hhVUY6dnsJSu",
@@ -302,12 +270,8 @@
                     "funding": "Seed",
                     "image": "logos/archilogic.png",
                     "website": "https://archilogic.com/",
-                    "tags": [
-                        "model viewer"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["model viewer"],
+                    "industries": ["architecture"],
                     "location": "Zurich, Switzerland",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -321,12 +285,8 @@
                 "funding": "Seed",
                 "image": "logos/archilogic.png",
                 "website": "https://archilogic.com/",
-                "tags": [
-                    "model viewer"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["model viewer"],
+                "industries": ["architecture"],
                 "location": "Zurich, Switzerland",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -353,12 +313,8 @@
                     "funding": "Seed",
                     "image": "logos/archilyse.png",
                     "website": "https://www.archilyse.com/",
-                    "tags": [
-                        "analysis"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["analysis"],
+                    "industries": ["architecture"],
                     "location": "Zurich, Switzerland",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -372,12 +328,8 @@
                 "funding": "Seed",
                 "image": "logos/archilyse.png",
                 "website": "https://www.archilyse.com/",
-                "tags": [
-                    "analysis"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["analysis"],
+                "industries": ["architecture"],
                 "location": "Zurich, Switzerland",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -402,14 +354,8 @@
                     "description": "Archistar.ai empowers property developers, governments and agents with next-generation intelligence in real-time.",
                     "image": "logos/archistar.png",
                     "website": "https://www.archistar.ai",
-                    "tags": [
-                        "generative",
-                        "spatial data",
-                        "web app"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["generative", "spatial data", "web app"],
+                    "industries": ["architecture"],
                     "location": "Sydney, Australia",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -421,14 +367,8 @@
                 "description": "Archistar.ai empowers property developers, governments and agents with next-generation intelligence in real-time.",
                 "image": "logos/archistar.png",
                 "website": "https://www.archistar.ai",
-                "tags": [
-                    "generative",
-                    "spatial data",
-                    "web app"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["generative", "spatial data", "web app"],
+                "industries": ["architecture"],
                 "location": "Sydney, Australia",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -455,10 +395,7 @@
                     "funding": "Private",
                     "image": "https://dl.airtable.com/.attachmentThumbnails/2184292930427ad9a81ad4d3a88015c1/0de32968",
                     "website": "https://getavail.com",
-                    "tags": [
-                        "data management",
-                        "documentation"
-                    ],
+                    "tags": ["data management", "documentation"],
                     "industries": [
                         "architecture",
                         "construction",
@@ -505,10 +442,7 @@
                 "funding": "Private",
                 "image": "https://dl.airtable.com/.attachmentThumbnails/2184292930427ad9a81ad4d3a88015c1/0de32968",
                 "website": "https://getavail.com",
-                "tags": [
-                    "data management",
-                    "documentation"
-                ],
+                "tags": ["data management", "documentation"],
                 "industries": [
                     "architecture",
                     "construction",
@@ -567,9 +501,7 @@
                     "description": "The communication platform for better BIM coordination. Features bi-directional issue tracking between major software platforms to make it easier to raise and resolve questions, comments, and other issues.",
                     "image": "logos/bimtrack.png",
                     "website": "https://bimtrack.co",
-                    "tags": [
-                        "web app"
-                    ],
+                    "tags": ["web app"],
                     "industries": [
                         "architecture",
                         "construction",
@@ -587,14 +519,8 @@
                 "description": "The communication platform for better BIM coordination. Features bi-directional issue tracking between major software platforms to make it easier to raise and resolve questions, comments, and other issues.",
                 "image": "logos/bimtrack.png",
                 "website": "https://bimtrack.co",
-                "tags": [
-                    "web app"
-                ],
-                "industries": [
-                    "architecture",
-                    "construction",
-                    "engineering"
-                ],
+                "tags": ["web app"],
+                "industries": ["architecture", "construction", "engineering"],
                 "location": "Quebec, Quebec, Canada",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -619,14 +545,8 @@
                     "description": "Blokable seeks to unlock the efficiencies of technological and financial system advances and create a process that turns real estate development into a transparent and easily managed service",
                     "image": "logos/blockable.png",
                     "website": "https://blokable.com",
-                    "tags": [
-                        "prefabrication",
-                        "housing"
-                    ],
-                    "industries": [
-                        "architecture",
-                        "construction"
-                    ],
+                    "tags": ["prefabrication", "housing"],
+                    "industries": ["architecture", "construction"],
                     "location": "Vancouver, BC, Canada",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -638,14 +558,8 @@
                 "description": "Blokable seeks to unlock the efficiencies of technological and financial system advances and create a process that turns real estate development into a transparent and easily managed service",
                 "image": "logos/blockable.png",
                 "website": "https://blokable.com",
-                "tags": [
-                    "prefabrication",
-                    "housing"
-                ],
-                "industries": [
-                    "architecture",
-                    "construction"
-                ],
+                "tags": ["prefabrication", "housing"],
+                "industries": ["architecture", "construction"],
                 "location": "Vancouver, BC, Canada",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -789,12 +703,8 @@
                     "funding": "Acquired by Hexagon",
                     "image": "logos/bricsys.png",
                     "website": "https://www.bricsys.com",
-                    "tags": [
-                        "desktop app"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["desktop app"],
+                    "industries": ["architecture"],
                     "location": "Gent, Belgium",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -808,12 +718,8 @@
                 "funding": "Acquired by Hexagon",
                 "image": "logos/bricsys.png",
                 "website": "https://www.bricsys.com",
-                "tags": [
-                    "desktop app"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["desktop app"],
+                "industries": ["architecture"],
                 "location": "Gent, Belgium",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -840,12 +746,8 @@
                     "funding": "Series A",
                     "image": "logos/bright-machines.png",
                     "website": "https://www.brightmachines.com/",
-                    "tags": [
-                        "manufacturing"
-                    ],
-                    "industries": [
-                        "construction"
-                    ],
+                    "tags": ["manufacturing"],
+                    "industries": ["construction"],
                     "location": "San Francisco, CA, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -859,12 +761,8 @@
                 "funding": "Series A",
                 "image": "logos/bright-machines.png",
                 "website": "https://www.brightmachines.com/",
-                "tags": [
-                    "manufacturing"
-                ],
-                "industries": [
-                    "construction"
-                ],
+                "tags": ["manufacturing"],
+                "industries": ["construction"],
                 "location": "San Francisco, CA, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -890,12 +788,8 @@
                     "funding": "In-house Startup at CBRE",
                     "image": "logos/cbre_build.png",
                     "website": "https://www.cbrebuild.com/",
-                    "tags": [
-                        "design automation"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["design automation"],
+                    "industries": ["architecture"],
                     "location": "New York, NY, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -908,12 +802,8 @@
                 "funding": "In-house Startup at CBRE",
                 "image": "logos/cbre_build.png",
                 "website": "https://www.cbrebuild.com/",
-                "tags": [
-                    "design automation"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["design automation"],
+                "industries": ["architecture"],
                 "location": "New York, NY, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -940,13 +830,8 @@
                     "funding": "Seed ($1.6M)",
                     "image": "https://user-images.githubusercontent.com/9513968/58451235-73228480-80c7-11e9-9043-d253c1c83ebd.png",
                     "website": "https://www.cover.build/",
-                    "tags": [
-                        "prefabrication",
-                        "housing"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["prefabrication", "housing"],
+                    "industries": ["architecture"],
                     "location": "Los Angeles, CA, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -960,13 +845,8 @@
                 "funding": "Seed ($1.6M)",
                 "image": "https://user-images.githubusercontent.com/9513968/58451235-73228480-80c7-11e9-9043-d253c1c83ebd.png",
                 "website": "https://www.cover.build/",
-                "tags": [
-                    "prefabrication",
-                    "housing"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["prefabrication", "housing"],
+                "industries": ["architecture"],
                 "location": "Los Angeles, CA, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -993,12 +873,8 @@
                     "funding": "Private Equity",
                     "image": "logos/daqri.png",
                     "website": "https://www.crunchbase.com/organization/daqri",
-                    "tags": [
-                        "vr"
-                    ],
-                    "industries": [
-                        "construction"
-                    ],
+                    "tags": ["vr"],
+                    "industries": ["construction"],
                     "location": "Los Angeles, CA, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -1012,12 +888,8 @@
                 "funding": "Private Equity",
                 "image": "logos/daqri.png",
                 "website": "https://www.crunchbase.com/organization/daqri",
-                "tags": [
-                    "vr"
-                ],
-                "industries": [
-                    "construction"
-                ],
+                "tags": ["vr"],
+                "industries": ["construction"],
                 "location": "Los Angeles, CA, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -1121,9 +993,7 @@
                         "web app",
                         "space planning"
                     ],
-                    "industries": [
-                        "real estate"
-                    ],
+                    "industries": ["real estate"],
                     "image_embed": [
                         {
                             "id": "attZ1fbCAtYw7XGGt",
@@ -1169,9 +1039,7 @@
                     "web app",
                     "space planning"
                 ],
-                "industries": [
-                    "real estate"
-                ],
+                "industries": ["real estate"],
                 "image_embed": [
                     {
                         "id": "attZ1fbCAtYw7XGGt",
@@ -1223,14 +1091,8 @@
                     "description": "Vertically integrated offsite construction",
                     "image": "https://user-images.githubusercontent.com/9513968/58451741-9817f700-80c9-11e9-9133-7659af540dcb.png",
                     "website": "https://factoryos.com/",
-                    "tags": [
-                        "prefabrication",
-                        "housing"
-                    ],
-                    "industries": [
-                        "architecture",
-                        "construction"
-                    ],
+                    "tags": ["prefabrication", "housing"],
+                    "industries": ["architecture", "construction"],
                     "location": "Vallejo, CA, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -1243,14 +1105,8 @@
                 "description": "Vertically integrated offsite construction",
                 "image": "https://user-images.githubusercontent.com/9513968/58451741-9817f700-80c9-11e9-9133-7659af540dcb.png",
                 "website": "https://factoryos.com/",
-                "tags": [
-                    "prefabrication",
-                    "housing"
-                ],
-                "industries": [
-                    "architecture",
-                    "construction"
-                ],
+                "tags": ["prefabrication", "housing"],
+                "industries": ["architecture", "construction"],
                 "location": "Vallejo, CA, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -1277,14 +1133,8 @@
                     "funding": "Acquired by WeWork",
                     "image": "logos/fieldlens.png",
                     "website": "https://fieldlens.com/",
-                    "tags": [
-                        "construction management",
-                        "web app"
-                    ],
-                    "industries": [
-                        "architecture",
-                        "construction"
-                    ],
+                    "tags": ["construction management", "web app"],
+                    "industries": ["architecture", "construction"],
                     "location": "New York, NY, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -1298,14 +1148,8 @@
                 "funding": "Acquired by WeWork",
                 "image": "logos/fieldlens.png",
                 "website": "https://fieldlens.com/",
-                "tags": [
-                    "construction management",
-                    "web app"
-                ],
-                "industries": [
-                    "architecture",
-                    "construction"
-                ],
+                "tags": ["construction management", "web app"],
+                "industries": ["architecture", "construction"],
                 "location": "New York, NY, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -1339,9 +1183,7 @@
                         "desktop app",
                         "space planning"
                     ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "industries": ["architecture"],
                     "location": "Malmö, Sweden",
                     "review": "hold",
                     "created_on": "2019-06-11T18:01:40.000Z"
@@ -1362,9 +1204,7 @@
                     "desktop app",
                     "space planning"
                 ],
-                "industries": [
-                    "architecture"
-                ],
+                "industries": ["architecture"],
                 "location": "Malmö, Sweden",
                 "review": "hold",
                 "created_on": "2019-06-11T18:01:40.000Z"
@@ -1391,13 +1231,8 @@
                     "funding": "Acquired by CBRE",
                     "image": "logos/floored.png",
                     "website": "https://www.floored.com/",
-                    "tags": [
-                        "space planning",
-                        "design automation"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["space planning", "design automation"],
+                    "industries": ["architecture"],
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
                 },
@@ -1410,13 +1245,8 @@
                 "funding": "Acquired by CBRE",
                 "image": "logos/floored.png",
                 "website": "https://www.floored.com/",
-                "tags": [
-                    "space planning",
-                    "design automation"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["space planning", "design automation"],
+                "industries": ["architecture"],
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
             }
@@ -1447,9 +1277,7 @@
                         "web app",
                         "flux spin-off"
                     ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "industries": ["architecture"],
                     "location": "San Francisco, CA, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -1468,9 +1296,7 @@
                     "web app",
                     "flux spin-off"
                 ],
-                "industries": [
-                    "architecture"
-                ],
+                "industries": ["architecture"],
                 "location": "San Francisco, CA, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -1496,12 +1322,8 @@
                     "description": "An easy to use platform for building applications in mixed reality",
                     "image": "logos/fologram.png",
                     "website": "https://fologram.com/",
-                    "tags": [
-                        "vr"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["vr"],
+                    "industries": ["architecture"],
                     "location": "Melbourne, Australia",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -1514,12 +1336,8 @@
                 "description": "An easy to use platform for building applications in mixed reality",
                 "image": "logos/fologram.png",
                 "website": "https://fologram.com/",
-                "tags": [
-                    "vr"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["vr"],
+                "industries": ["architecture"],
                 "location": "Melbourne, Australia",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -1600,11 +1418,7 @@
                     "cost estimation",
                     "data management"
                 ],
-                "industries": [
-                    "architecture",
-                    "engineering",
-                    "construction"
-                ],
+                "industries": ["architecture", "engineering", "construction"],
                 "image_embed": [
                     {
                         "id": "attZabptHA1qzzwNi",
@@ -1656,13 +1470,8 @@
                     "description": "Lifecycle Asset Information Management software for the built environment",
                     "image": "https://camo.githubusercontent.com/40bb6e4d54fa99f515780dbf8dbfd7cec3ccb413/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f4470745761576a5863414134484f582e6a7067",
                     "website": "https://gliderbim.com",
-                    "tags": [
-                        "web app",
-                        "asset management"
-                    ],
-                    "industries": [
-                        "facilities management"
-                    ],
+                    "tags": ["web app", "asset management"],
+                    "industries": ["facilities management"],
                     "location": "Clitheroe, UK",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -1675,13 +1484,8 @@
                 "description": "Lifecycle Asset Information Management software for the built environment",
                 "image": "https://camo.githubusercontent.com/40bb6e4d54fa99f515780dbf8dbfd7cec3ccb413/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f4470745761576a5863414134484f582e6a7067",
                 "website": "https://gliderbim.com",
-                "tags": [
-                    "web app",
-                    "asset management"
-                ],
-                "industries": [
-                    "facilities management"
-                ],
+                "tags": ["web app", "asset management"],
+                "industries": ["facilities management"],
                 "location": "Clitheroe, UK",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -1707,12 +1511,8 @@
                     "description": "Agile Construction Management Platform",
                     "image": "logos/grit.png",
                     "website": "https://www.gritvirtual.com/",
-                    "tags": [
-                        "project management"
-                    ],
-                    "industries": [
-                        "construction"
-                    ],
+                    "tags": ["project management"],
+                    "industries": ["construction"],
                     "location": "Wichita, KS, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -1725,12 +1525,8 @@
                 "description": "Agile Construction Management Platform",
                 "image": "logos/grit.png",
                 "website": "https://www.gritvirtual.com/",
-                "tags": [
-                    "project management"
-                ],
-                "industries": [
-                    "construction"
-                ],
+                "tags": ["project management"],
+                "industries": ["construction"],
                 "location": "Wichita, KS, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -1756,13 +1552,8 @@
                     "description": "Data solution for large-scale property owners and managers",
                     "image": "logos/helix.png",
                     "website": "https://helix.re/",
-                    "tags": [
-                        "point cloud",
-                        "flux spin-off"
-                    ],
-                    "industries": [
-                        "real estate"
-                    ],
+                    "tags": ["point cloud", "flux spin-off"],
+                    "industries": ["real estate"],
                     "location": "San Mateo, CA, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -1775,13 +1566,8 @@
                 "description": "Data solution for large-scale property owners and managers",
                 "image": "logos/helix.png",
                 "website": "https://helix.re/",
-                "tags": [
-                    "point cloud",
-                    "flux spin-off"
-                ],
-                "industries": [
-                    "real estate"
-                ],
+                "tags": ["point cloud", "flux spin-off"],
+                "industries": ["real estate"],
                 "location": "San Mateo, CA, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -1813,9 +1599,7 @@
                         "housing",
                         "design automation"
                     ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "industries": ["architecture"],
                     "location": "Durham, NC, USA",
                     "review": "approved",
                     "created_on": "2019-06-14T17:43:25.000Z"
@@ -1834,9 +1618,7 @@
                     "housing",
                     "design automation"
                 ],
-                "industries": [
-                    "architecture"
-                ],
+                "industries": ["architecture"],
                 "location": "Durham, NC, USA",
                 "review": "approved",
                 "created_on": "2019-06-14T17:43:25.000Z"
@@ -1861,13 +1643,8 @@
                     "description": "We provide a cloud compute environment and software libraries that enable AEC developers to deploy their specialized building logic to the cloud, and make it available to their team, their organization, or the world.",
                     "image": "logos/hypar.png",
                     "website": "https://hypar.io/",
-                    "tags": [
-                        "web app",
-                        "generative"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["web app", "generative"],
+                    "industries": ["architecture"],
                     "location": "Culver City, CA, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -1879,13 +1656,8 @@
                 "description": "We provide a cloud compute environment and software libraries that enable AEC developers to deploy their specialized building logic to the cloud, and make it available to their team, their organization, or the world.",
                 "image": "logos/hypar.png",
                 "website": "https://hypar.io/",
-                "tags": [
-                    "web app",
-                    "generative"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["web app", "generative"],
+                "industries": ["architecture"],
                 "location": "Culver City, CA, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -1912,12 +1684,8 @@
                     "funding": "Series A $9.6M",
                     "image": "logos/irisvr.png",
                     "website": "https://irisvr.com/",
-                    "tags": [
-                        "vr"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["vr"],
+                    "industries": ["architecture"],
                     "location": "New York, NY, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -1931,12 +1699,8 @@
                 "funding": "Series A $9.6M",
                 "image": "logos/irisvr.png",
                 "website": "https://irisvr.com/",
-                "tags": [
-                    "vr"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["vr"],
+                "industries": ["architecture"],
                 "location": "New York, NY, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -1962,14 +1726,8 @@
                     "funding": "Venture",
                     "image": "logos/join.png",
                     "website": "https://join.build",
-                    "tags": [
-                        "cost estimation",
-                        "flux spin-off"
-                    ],
-                    "industries": [
-                        "architecture",
-                        "construction"
-                    ],
+                    "tags": ["cost estimation", "flux spin-off"],
+                    "industries": ["architecture", "construction"],
                     "location": "San Francisco, CA, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -1982,14 +1740,8 @@
                 "funding": "Venture",
                 "image": "logos/join.png",
                 "website": "https://join.build",
-                "tags": [
-                    "cost estimation",
-                    "flux spin-off"
-                ],
-                "industries": [
-                    "architecture",
-                    "construction"
-                ],
+                "tags": ["cost estimation", "flux spin-off"],
+                "industries": ["architecture", "construction"],
                 "location": "San Francisco, CA, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -2014,13 +1766,8 @@
                     "description": "A Micro-Housing Start-Up",
                     "image": "logos/kasita.png",
                     "website": "https://kasita.com/",
-                    "tags": [
-                        "prefabrication"
-                    ],
-                    "industries": [
-                        "architecture",
-                        "construction"
-                    ],
+                    "tags": ["prefabrication"],
+                    "industries": ["architecture", "construction"],
                     "location": "Austin, TX, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -2032,13 +1779,8 @@
                 "description": "A Micro-Housing Start-Up",
                 "image": "logos/kasita.png",
                 "website": "https://kasita.com/",
-                "tags": [
-                    "prefabrication"
-                ],
-                "industries": [
-                    "architecture",
-                    "construction"
-                ],
+                "tags": ["prefabrication"],
+                "industries": ["architecture", "construction"],
                 "location": "Austin, TX, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -2064,12 +1806,8 @@
                     "funding": "Series D $1.2B",
                     "image": "logos/katerra.png",
                     "website": "https://www.katerra.com",
-                    "tags": [
-                        "manufacturing"
-                    ],
-                    "industries": [
-                        "construction"
-                    ],
+                    "tags": ["manufacturing"],
+                    "industries": ["construction"],
                     "location": "Menlo Park, CA, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -2082,12 +1820,8 @@
                 "funding": "Series D $1.2B",
                 "image": "logos/katerra.png",
                 "website": "https://www.katerra.com",
-                "tags": [
-                    "manufacturing"
-                ],
-                "industries": [
-                    "construction"
-                ],
+                "tags": ["manufacturing"],
+                "industries": ["construction"],
                 "location": "Menlo Park, CA, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -2113,13 +1847,8 @@
                     "description": "Faster Updates, Easier Collaboration, & Reliable Change Management for BIM",
                     "image": "logos/konstru.png",
                     "website": "https://konstru.com",
-                    "tags": [
-                        "web app",
-                        "change management"
-                    ],
-                    "industries": [
-                        "engineering"
-                    ],
+                    "tags": ["web app", "change management"],
+                    "industries": ["engineering"],
                     "location": "New York, NY, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -2132,13 +1861,8 @@
                 "description": "Faster Updates, Easier Collaboration, & Reliable Change Management for BIM",
                 "image": "logos/konstru.png",
                 "website": "https://konstru.com",
-                "tags": [
-                    "web app",
-                    "change management"
-                ],
-                "industries": [
-                    "engineering"
-                ],
+                "tags": ["web app", "change management"],
+                "industries": ["engineering"],
                 "location": "New York, NY, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -2288,13 +2012,8 @@
                     "description": "Making environmental design knowledge and tools freely accessible to every person, project and design process",
                     "image": "logos/ladybug.png",
                     "website": "https://www.ladybug.tools",
-                    "tags": [
-                        "analysis",
-                        "web app"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["analysis", "web app"],
+                    "industries": ["architecture"],
                     "location": "Fairfax, VA, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -2306,13 +2025,8 @@
                 "description": "Making environmental design knowledge and tools freely accessible to every person, project and design process",
                 "image": "logos/ladybug.png",
                 "website": "https://www.ladybug.tools",
-                "tags": [
-                    "analysis",
-                    "web app"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["analysis", "web app"],
+                "industries": ["architecture"],
                 "location": "Fairfax, VA, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -2337,13 +2051,8 @@
                     "description": "One platform for collecting, managing, and sharing building data",
                     "image": "logos/layer.png",
                     "website": "https://layer.team",
-                    "tags": [
-                        "data management",
-                        "web app"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["data management", "web app"],
+                    "industries": ["architecture"],
                     "location": "Lincoln, NE, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -2355,13 +2064,8 @@
                 "description": "One platform for collecting, managing, and sharing building data",
                 "image": "logos/layer.png",
                 "website": "https://layer.team",
-                "tags": [
-                    "data management",
-                    "web app"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["data management", "web app"],
+                "industries": ["architecture"],
                 "location": "Lincoln, NE, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -2388,12 +2092,8 @@
                     "funding": "Grant",
                     "image": "logos/leko.png",
                     "website": "https://www.lekolabs.com/",
-                    "tags": [
-                        "prefabrication"
-                    ],
-                    "industries": [
-                        "construction"
-                    ],
+                    "tags": ["prefabrication"],
+                    "industries": ["construction"],
                     "location": "Foetz, Luxembourg",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -2407,12 +2107,8 @@
                 "funding": "Grant",
                 "image": "logos/leko.png",
                 "website": "https://www.lekolabs.com/",
-                "tags": [
-                    "prefabrication"
-                ],
-                "industries": [
-                    "construction"
-                ],
+                "tags": ["prefabrication"],
+                "industries": ["construction"],
                 "location": "Foetz, Luxembourg",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -2438,13 +2134,8 @@
                     "funding": "Seed",
                     "image": "logos/modelo.png",
                     "website": "https://modelo.io/",
-                    "tags": [
-                        "web app",
-                        "model viewer"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["web app", "model viewer"],
+                    "industries": ["architecture"],
                     "location": "Somerville, MA, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -2457,13 +2148,8 @@
                 "funding": "Seed",
                 "image": "logos/modelo.png",
                 "website": "https://modelo.io/",
-                "tags": [
-                    "web app",
-                    "model viewer"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["web app", "model viewer"],
+                "industries": ["architecture"],
                 "location": "Somerville, MA, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -2496,10 +2182,7 @@
                         "cost estimation",
                         "project management"
                     ],
-                    "industries": [
-                        "architecture",
-                        "engineering"
-                    ],
+                    "industries": ["architecture", "engineering"],
                     "location": "Schleswig, Germany",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -2519,10 +2202,7 @@
                     "cost estimation",
                     "project management"
                 ],
-                "industries": [
-                    "architecture",
-                    "engineering"
-                ],
+                "industries": ["architecture", "engineering"],
                 "location": "Schleswig, Germany",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -2549,13 +2229,8 @@
                     "funding": "MIT Grant",
                     "image": "logos/monograph.png",
                     "website": "https://monograph.io",
-                    "tags": [
-                        "project management",
-                        "web app"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["project management", "web app"],
+                    "industries": ["architecture"],
                     "location": "San Francisco, CA, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -2569,13 +2244,8 @@
                 "funding": "MIT Grant",
                 "image": "logos/monograph.png",
                 "website": "https://monograph.io",
-                "tags": [
-                    "project management",
-                    "web app"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["project management", "web app"],
+                "industries": ["architecture"],
                 "location": "San Francisco, CA, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -2602,15 +2272,8 @@
                     "funding": "22.6M",
                     "image": "https://www.oneconcern.com/share.jpg",
                     "website": "https://www.oneconcern.com/",
-                    "tags": [
-                        "data management",
-                        "verified AI",
-                        "spatial data"
-                    ],
-                    "industries": [
-                        "engineering",
-                        "construction"
-                    ],
+                    "tags": ["data management", "verified AI", "spatial data"],
+                    "industries": ["engineering", "construction"],
                     "location": " Menlo Park, CA, USA",
                     "review": "approved",
                     "created_on": "2019-07-04T19:16:45.000Z"
@@ -2624,15 +2287,8 @@
                 "funding": "22.6M",
                 "image": "https://www.oneconcern.com/share.jpg",
                 "website": "https://www.oneconcern.com/",
-                "tags": [
-                    "data management",
-                    "verified AI",
-                    "spatial data"
-                ],
-                "industries": [
-                    "engineering",
-                    "construction"
-                ],
+                "tags": ["data management", "verified AI", "spatial data"],
+                "industries": ["engineering", "construction"],
                 "location": " Menlo Park, CA, USA",
                 "review": "approved",
                 "created_on": "2019-07-04T19:16:45.000Z"
@@ -2659,13 +2315,8 @@
                     "funding": "Seed ($3.5M)",
                     "image": "https://user-images.githubusercontent.com/9513968/58451421-4458de00-80c8-11e9-8d2d-56388a00d2f5.png",
                     "website": "https://openspace.ai/",
-                    "tags": [
-                        "construction management",
-                        "claims AI"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["construction management", "claims AI"],
+                    "industries": ["architecture"],
                     "location": "San Francisco, CA, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -2679,13 +2330,8 @@
                 "funding": "Seed ($3.5M)",
                 "image": "https://user-images.githubusercontent.com/9513968/58451421-4458de00-80c8-11e9-8d2d-56388a00d2f5.png",
                 "website": "https://openspace.ai/",
-                "tags": [
-                    "construction management",
-                    "claims AI"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["construction management", "claims AI"],
+                "industries": ["architecture"],
                 "location": "San Francisco, CA, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -2710,13 +2356,8 @@
                     "description": "Connect your digital and physical workflow",
                     "image": "logos/outerlabs.png",
                     "website": "http://www.outerlabs.io",
-                    "tags": [
-                        "data management",
-                        "flux spin-off"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["data management", "flux spin-off"],
+                    "industries": ["architecture"],
                     "location": "San Francisco, CA, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -2728,13 +2369,8 @@
                 "description": "Connect your digital and physical workflow",
                 "image": "logos/outerlabs.png",
                 "website": "http://www.outerlabs.io",
-                "tags": [
-                    "data management",
-                    "flux spin-off"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["data management", "flux spin-off"],
+                "industries": ["architecture"],
                 "location": "San Francisco, CA, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -2760,12 +2396,8 @@
                     "funding": "-",
                     "image": "https://images.app.goo.gl/JgiMCYNrvW6FjFrk9",
                     "website": "https://paperlessconstruction.co.uk/",
-                    "tags": [
-                        "construction management"
-                    ],
-                    "industries": [
-                        "construction"
-                    ],
+                    "tags": ["construction management"],
+                    "industries": ["construction"],
                     "location": "York, United Kingdom",
                     "review": "hold",
                     "proposed_by": "raymond@paperlessconstruction.co.uk",
@@ -2779,12 +2411,8 @@
                 "funding": "-",
                 "image": "https://images.app.goo.gl/JgiMCYNrvW6FjFrk9",
                 "website": "https://paperlessconstruction.co.uk/",
-                "tags": [
-                    "construction management"
-                ],
-                "industries": [
-                    "construction"
-                ],
+                "tags": ["construction management"],
+                "industries": ["construction"],
                 "location": "York, United Kingdom",
                 "review": "hold",
                 "proposed_by": "raymond@paperlessconstruction.co.uk",
@@ -2811,9 +2439,7 @@
                     "description": "PiXYZ Software is the leading solution for large CAD data automatic preparation, optimization & review (patents pending)",
                     "image": "logos/pixyz.png",
                     "website": "https://www.pixyz-software.com/",
-                    "tags": [
-                        "desktop app"
-                    ],
+                    "tags": ["desktop app"],
                     "location": "Ennis, Ireland",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -2826,9 +2452,7 @@
                 "description": "PiXYZ Software is the leading solution for large CAD data automatic preparation, optimization & review (patents pending)",
                 "image": "logos/pixyz.png",
                 "website": "https://www.pixyz-software.com/",
-                "tags": [
-                    "desktop app"
-                ],
+                "tags": ["desktop app"],
                 "location": "Ennis, Ireland",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -2855,12 +2479,8 @@
                     "funding": "Acquired by Autodesk",
                     "image": "logos/plangrid.png",
                     "website": "http://www.plangrid.com/",
-                    "tags": [
-                        "construction management"
-                    ],
-                    "industries": [
-                        "construction"
-                    ],
+                    "tags": ["construction management"],
+                    "industries": ["construction"],
                     "location": "San Francisco, CA, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -2874,12 +2494,8 @@
                 "funding": "Acquired by Autodesk",
                 "image": "logos/plangrid.png",
                 "website": "http://www.plangrid.com/",
-                "tags": [
-                    "construction management"
-                ],
-                "industries": [
-                    "construction"
-                ],
+                "tags": ["construction management"],
+                "industries": ["construction"],
                 "location": "San Francisco, CA, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -2963,11 +2579,7 @@
                     "desktop app",
                     "project management"
                 ],
-                "industries": [
-                    "architecture",
-                    "construction",
-                    "engineering"
-                ],
+                "industries": ["architecture", "construction", "engineering"],
                 "image_embed": [
                     {
                         "id": "atty0q41YYZtm4qti",
@@ -3018,13 +2630,8 @@
                     "funding": "In-house Startup at Airbnb",
                     "image": "https://static.dezeen.com/uploads/2018/12/airbnb-backyard-initiative-samara-housing-prototype_dezeen_hero-852x479.jpg",
                     "website": "https://samara.com/backyard/",
-                    "tags": [
-                        "housing"
-                    ],
-                    "industries": [
-                        "architecture",
-                        "construction"
-                    ],
+                    "tags": ["housing"],
+                    "industries": ["architecture", "construction"],
                     "location": "San Francisco, CA, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -3037,13 +2644,8 @@
                 "funding": "In-house Startup at Airbnb",
                 "image": "https://static.dezeen.com/uploads/2018/12/airbnb-backyard-initiative-samara-housing-prototype_dezeen_hero-852x479.jpg",
                 "website": "https://samara.com/backyard/",
-                "tags": [
-                    "housing"
-                ],
-                "industries": [
-                    "architecture",
-                    "construction"
-                ],
+                "tags": ["housing"],
+                "industries": ["architecture", "construction"],
                 "location": "San Francisco, CA, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -3147,14 +2749,8 @@
                     "description": "Spacemaker has developed a game-changing AI technology that helps users discover smarter ways to maximize the potential of a building site.",
                     "image": "logos/spacemaker.png",
                     "website": "https://spacemaker.ai",
-                    "tags": [
-                        "housing",
-                        "generative",
-                        "web app"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["housing", "generative", "web app"],
+                    "industries": ["architecture"],
                     "location": "Oslo, Norway",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -3166,14 +2762,8 @@
                 "description": "Spacemaker has developed a game-changing AI technology that helps users discover smarter ways to maximize the potential of a building site.",
                 "image": "logos/spacemaker.png",
                 "website": "https://spacemaker.ai",
-                "tags": [
-                    "housing",
-                    "generative",
-                    "web app"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["housing", "generative", "web app"],
+                "industries": ["architecture"],
                 "location": "Oslo, Norway",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -3199,13 +2789,8 @@
                     "funding": "Open Source (MIT)",
                     "image": "logos/speckle.png",
                     "website": "https://speckle.works/",
-                    "tags": [
-                        "interoperability",
-                        "web app"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["interoperability", "web app"],
+                    "industries": ["architecture"],
                     "location": "London, UK",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -3218,13 +2803,8 @@
                 "funding": "Open Source (MIT)",
                 "image": "logos/speckle.png",
                 "website": "https://speckle.works/",
-                "tags": [
-                    "interoperability",
-                    "web app"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["interoperability", "web app"],
+                "industries": ["architecture"],
                 "location": "London, UK",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -3249,13 +2829,8 @@
                     "description": "Rapid Test Fit Software",
                     "image": "logos/testfitio.png",
                     "website": "https://testfit.io/",
-                    "tags": [
-                        "design automation",
-                        "desktop app"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["design automation", "desktop app"],
+                    "industries": ["architecture"],
                     "location": "Dallas, TX, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -3267,13 +2842,8 @@
                 "description": "Rapid Test Fit Software",
                 "image": "logos/testfitio.png",
                 "website": "https://testfit.io/",
-                "tags": [
-                    "design automation",
-                    "desktop app"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["design automation", "desktop app"],
+                "industries": ["architecture"],
                 "location": "Dallas, TX, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -3300,13 +2870,8 @@
                     "funding": "Seed",
                     "image": "https://dl.airtable.com/.attachments/992e747b6edd01f45a4c1115a07048dd/83c2e1f8/the_wild.png",
                     "website": "https://thewild.com/",
-                    "tags": [
-                        "vr",
-                        "model viewer"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["vr", "model viewer"],
+                    "industries": ["architecture"],
                     "image_embed": [
                         {
                             "id": "attdW6uxHOsIZ3McQ",
@@ -3346,13 +2911,8 @@
                 "funding": "Seed",
                 "image": "https://dl.airtable.com/.attachments/992e747b6edd01f45a4c1115a07048dd/83c2e1f8/the_wild.png",
                 "website": "https://thewild.com/",
-                "tags": [
-                    "vr",
-                    "model viewer"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["vr", "model viewer"],
+                "industries": ["architecture"],
                 "image_embed": [
                     {
                         "id": "attdW6uxHOsIZ3McQ",
@@ -3405,13 +2965,8 @@
                     "funding": "Seed",
                     "image": "logos/topos.png",
                     "website": "https://topos.com",
-                    "tags": [
-                        "spatial data",
-                        "claims AI"
-                    ],
-                    "industries": [
-                        "real estate"
-                    ],
+                    "tags": ["spatial data", "claims AI"],
+                    "industries": ["real estate"],
                     "location": "New York, NY, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -3425,13 +2980,8 @@
                 "funding": "Seed",
                 "image": "logos/topos.png",
                 "website": "https://topos.com",
-                "tags": [
-                    "spatial data",
-                    "claims AI"
-                ],
-                "industries": [
-                    "real estate"
-                ],
+                "tags": ["spatial data", "claims AI"],
+                "industries": ["real estate"],
                 "location": "New York, NY, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -3458,14 +3008,8 @@
                     "funding": "Seed $825K",
                     "image": "logos/upcodes.png",
                     "website": "https://up.codes",
-                    "tags": [
-                        "documentation",
-                        "web app",
-                        "claims AI"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["documentation", "web app", "claims AI"],
+                    "industries": ["architecture"],
                     "location": "San Francisco, CA, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -3479,14 +3023,8 @@
                 "funding": "Seed $825K",
                 "image": "logos/upcodes.png",
                 "website": "https://up.codes",
-                "tags": [
-                    "documentation",
-                    "web app",
-                    "claims AI"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["documentation", "web app", "claims AI"],
+                "industries": ["architecture"],
                 "location": "San Francisco, CA, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -3513,14 +3051,8 @@
                     "funding": "Seed 6.5M",
                     "image": "https://dl.airtable.com/.attachmentThumbnails/309d14cd4610543d712041e622cfc0f2/3ffb9291",
                     "website": "https://urbanfootprint.com/",
-                    "tags": [
-                        "spatial data",
-                        "web app",
-                        "analysis"
-                    ],
-                    "industries": [
-                        "real estate"
-                    ],
+                    "tags": ["spatial data", "web app", "analysis"],
+                    "industries": ["real estate"],
                     "image_embed": [
                         {
                             "id": "attSwUWSEt63ANRtO",
@@ -3560,14 +3092,8 @@
                 "funding": "Seed 6.5M",
                 "image": "https://dl.airtable.com/.attachmentThumbnails/309d14cd4610543d712041e622cfc0f2/3ffb9291",
                 "website": "https://urbanfootprint.com/",
-                "tags": [
-                    "spatial data",
-                    "web app",
-                    "analysis"
-                ],
-                "industries": [
-                    "real estate"
-                ],
+                "tags": ["spatial data", "web app", "analysis"],
+                "industries": ["real estate"],
                 "image_embed": [
                     {
                         "id": "attSwUWSEt63ANRtO",
@@ -3620,13 +3146,8 @@
                     "funding": "Venture",
                     "image": "logos/visualvocal.png",
                     "website": "https://visualvocal.com/",
-                    "tags": [
-                        "vr",
-                        "ar"
-                    ],
-                    "industries": [
-                        "construction"
-                    ],
+                    "tags": ["vr", "ar"],
+                    "industries": ["construction"],
                     "location": "Seattle, WA, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -3640,13 +3161,8 @@
                 "funding": "Venture",
                 "image": "logos/visualvocal.png",
                 "website": "https://visualvocal.com/",
-                "tags": [
-                    "vr",
-                    "ar"
-                ],
-                "industries": [
-                    "construction"
-                ],
+                "tags": ["vr", "ar"],
+                "industries": ["construction"],
                 "location": "Seattle, WA, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
@@ -3673,13 +3189,8 @@
                     "funding": "Late Stage Venture",
                     "image": "logos/wework.png",
                     "website": "https://www.wework.com/",
-                    "tags": [
-                        "documentation",
-                        "web app"
-                    ],
-                    "industries": [
-                        "architecture"
-                    ],
+                    "tags": ["documentation", "web app"],
+                    "industries": ["architecture"],
                     "location": "New York, NY, USA",
                     "review": "approved",
                     "created_on": "2019-06-05T19:17:34.000Z"
@@ -3693,13 +3204,8 @@
                 "funding": "Late Stage Venture",
                 "image": "logos/wework.png",
                 "website": "https://www.wework.com/",
-                "tags": [
-                    "documentation",
-                    "web app"
-                ],
-                "industries": [
-                    "architecture"
-                ],
+                "tags": ["documentation", "web app"],
+                "industries": ["architecture"],
                 "location": "New York, NY, USA",
                 "review": "approved",
                 "created_on": "2019-06-05T19:17:34.000Z"
