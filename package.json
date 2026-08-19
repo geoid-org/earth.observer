@@ -70,7 +70,7 @@
         "style-loader": "^3.3.3",
         "stylescape": "^0.0.11",
         "typescript": "~5.2.2",
-        "webpack": "^5.88.2",
+        "webpack": "^5.109.2",
         "webpack-cli": "^5.1.4",
         "webpack-dev-server": "^4.15.1"
     }
