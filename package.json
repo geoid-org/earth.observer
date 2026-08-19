@@ -66,7 +66,7 @@
         "postcss-loader": "^8.1.1",
         "prettier": "3.0.3",
         "sass": "^1.68.0",
-        "sass-loader": "^13.3.2",
+        "sass-loader": "^17.0.0",
         "style-loader": "^3.3.3",
         "stylescape": "^0.0.11",
         "typescript": "~5.2.2",
